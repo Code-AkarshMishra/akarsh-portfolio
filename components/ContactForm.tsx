@@ -11,26 +11,34 @@ export default function ContactForm() {
         e.preventDefault();
         setIsSubmitting(true);
 
-        const formData = new FormData(e.currentTarget);
 
-        // YAHAN APNI WEB3FORMS KI ACCESS KEY DAALEIN 👇
+        const form = e.target as HTMLFormElement;
+        const formData = new FormData(form);
+
         formData.append("access_key", "2afd5beb-0663-4ce0-91c8-8b9dc1e2dde5");
 
         try {
             const response = await fetch("https://api.web3forms.com/submit", {
                 method: "POST",
-                body: formData
+                body: formData,
+                headers: {
+                    'Accept': 'application/json' // Ye header Web3Forms ko sahi format deta hai
+                }
             });
+
+            const data = await response.json();
 
             if (response.ok) {
                 setIsSuccess(true);
-                e.currentTarget.reset(); // Form clear kar dega
+                form.reset(); // ✅ FORM YAHAN AUTOMATIC CLEAR HO JAYEGA
                 setTimeout(() => setIsSuccess(false), 5000); // 5 sec baad success message gayab
             } else {
-                alert("Oops! There was a problem submitting your form");
+                // Agar Web3Forms API se koi error aati hai toh ye batayega kya galat hai
+                alert(data.message || "Oops! There was a problem submitting your form");
             }
         } catch (error) {
-            alert("Something went wrong. Please try again.");
+            console.error(error);
+            alert("Something went wrong. Please check your connection.");
         }
 
         setIsSubmitting(false);
@@ -40,7 +48,7 @@ export default function ContactForm() {
         <div className="w-full max-w-lg mx-auto">
             {isSuccess && (
                 <div className="mb-6 p-4 bg-green-500/20 border border-green-500/50 rounded-xl text-green-400 text-center font-medium">
-                    Message Sent successful! I will get back to you soon.
+                    Transmission successful! I will get back to you soon.
                 </div>
             )}
 
@@ -52,7 +60,7 @@ export default function ContactForm() {
                     </div>
                     <div className="space-y-2">
                         <label className="text-sm text-gray-400 font-medium">Email</label>
-                        <input type="email" name="email" required className="w-full bg-navy-800/50 border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-electric-blue focus:ring-1 focus:ring-electric-blue transition-all" placeholder="email@domain.com" />
+                        <input type="email" name="email" required className="w-full bg-navy-800/50 border border-white/10 rounded-xl px-4 py-3 text-white focus:outline-none focus:border-electric-blue focus:ring-1 focus:ring-electric-blue transition-all" placeholder="email@example.com" />
                     </div>
                 </div>
 
