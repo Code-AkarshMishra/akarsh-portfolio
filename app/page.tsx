@@ -428,9 +428,9 @@ export default function Portfolio() {
                 { title: "Deloitte Technology Simulation", type: "Coding & Development", date: "July 2025", image: "/certificates/deloitte-tech.png" },
                 { title: "Deloitte Cyber Simulation", type: "Cyber Security", date: "July 2025", image: "/certificates/deloitte-cyber.png" },
                 { title: "Vault of Codes LOR", type: "Professional Recognition", date: "Python Excellence", image: "/certificates/OFFERLETTER.JPG" },
-                { title: "Hack with UP Grand Finale", type: "Hackathon Finalist", date: "State Level", image: "/certificates/HWUP.JPG" },
+                { title: "Hack with UP Grand Finale", type: "Hackathon Finalist", date: "State Level", image: "/certificates/HWUP.jpg" },
                 { title: "Python Developer Internship", type: "Vault of Codes", date: "Completion Certificate", image: "/certificates/python-intern.jpeg" },
-                { title: "Web Developer Internship", type: "Vault of Codes", date: "Completion Certificate", image: "/certificates/webd-intern.jpeg" },
+                { title: "Web Developer Internship", type: "Vault of Codes", date: "Completion Certificate", image: "/certificates/webD-intern.jpeg" },
                 { title: "Smart India Hackathon", type: "Internal Round", date: "Participation", image: "/certificates/sih25.png" },
                 { title: "Google Ads Certification", type: "Digital Marketing", date: "Google", image: "/certificates/google-ads.jpeg" }
               ].map((cert, idx) => (
