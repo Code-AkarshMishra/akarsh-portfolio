@@ -125,7 +125,7 @@ export default function Portfolio() {
                 I develop <span className="text-white">modern web applications</span> and intelligent systems using programming and emerging technologies.
                 <br className="hidden md:block mb-2" />
                 Focused on AI, Machine Learning, and real-world software products.
-                q  1`` Building <strong>ENROLE</strong>
+                Building <strong>ENROLE</strong>
               </p>
 
               <div className="flex flex-col sm:flex-row items-center justify-center md:justify-start gap-4">
