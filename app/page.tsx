@@ -133,7 +133,7 @@ export default function Portfolio() {
                   <span className="relative z-10 flex items-center gap-2">View Projects <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" /></span>
                 </a>
 
-                <a href="/resume.pdf" download="Akarsh_Mishra_Resume.pdf" className="px-8 py-3 border border-white/20 text-white font-medium rounded-full hover:bg-white/5 transition-all flex items-center gap-2 hover:border-electric-blue/50">
+                <a href="/Akarsh_Mishra_Resume.pdf" download="Akarsh_Mishra_Resume.pdf" className="px-8 py-3 border border-white/20 text-white font-medium rounded-full hover:bg-white/5 transition-all flex items-center gap-2 hover:border-electric-blue/50">
                   <Download size={18} /> Download Resume
                 </a>
               </div>
