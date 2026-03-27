@@ -39,21 +39,57 @@ export const metadata: Metadata = {
     type: "website",
   },
 };
+// export default function RootLayout({
+//   children,
+// }: Readonly<{
+//   children: React.ReactNode;
+// }>) {
+//   return (
+//     <html lang="en">
+//       <head>
+//         <meta name="google-site-verification" content="6Xnbq-3OC8tH2EZ7_acIb9Bf49spiVVl_Y57eZ3Z5Gw" />
+//       </head>
+//       <body
+//         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+//       >
+//         {children}
+//       </body>
+//     </html>
+//   );
+// }
 export default function RootLayout({
   children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+}: {
+  children: React.ReactNode
+}) {
   return (
     <html lang="en">
       <head>
+        {/* JSON-LD Structured Data */}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Person",
+              "name": "Akarsh Mishra",
+              "alternateName": "code-akarshmishra",
+              "url": "https://code-akarshmishra.vercel.app/",
+              "sameAs": [
+                "https://www.linkedin.com/in/code-akarshmishra/",
+                "https://github.com/code-akarshmishra"
+              ],
+              "jobTitle": "Full-Stack Developer",
+              "worksFor": {
+                "@type": "Organization",
+                "name": "Shri Ramswaroop Memorial University"
+              }
+            }),
+          }}
+        />
         <meta name="google-site-verification" content="6Xnbq-3OC8tH2EZ7_acIb9Bf49spiVVl_Y57eZ3Z5Gw" />
       </head>
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
   );
 }
