@@ -1,6 +1,6 @@
 'use client';
 import { motion, useScroll, useSpring, AnimatePresence } from 'framer-motion';
-import { ArrowRight, Download, Mail, Github, Linkedin, ExternalLink, Code2, BrainCircuit, Layout, Menu, X, Trophy, Award, FileText, Microscope, Radio, Server } from 'lucide-react';
+import { ArrowRight, Download, Mail, Github, Linkedin, ExternalLink, Code2, BrainCircuit, Layout, Menu, X, Trophy, Award, FileText, Microscope, Radio, Server, Globe } from 'lucide-react';
 import React, { useState } from 'react';
 import TiltCard from '@/components/TiltCard';
 import ContactForm from '@/components/ContactForm';
@@ -112,7 +112,7 @@ export default function Portfolio() {
             >
               {/* 1. Top Tag */}
               <h2 className="text-electric-blue font-semibold tracking-widest uppercase mb-4 text-sm md:text-base">
-                Aspiring AI Engineer & Web Developer
+                Full-Stack Developer & AI / ML Engineer (Basics)
               </h2>
 
               {/* 2. Main Heading */}
@@ -527,6 +527,9 @@ export default function Portfolio() {
               </a>
               <a href="https://github.com/Code-AkarshMishra" className="p-4 bg-white/5 border border-white/10 rounded-full hover:bg-white hover:text-black hover:scale-110 transition-all shadow-lg hover:shadow-[0_0_20px_#ffffff]">
                 <Github size={24} />
+              </a>
+              <a href="https://www.commudle.com/users/Code_AkarshMishra" className="p-4 bg-white/5 border border-white/10 rounded-full hover:bg-white hover:text-black hover:scale-110 transition-all shadow-lg hover:shadow-[0_0_20px_#ffffff]">
+                <Globe size={24} />
               </a>
             </div>
             <p className="text-center text-gray-600 text-sm font-medium tracking-wide">© {new Date().getFullYear()} Made With ❤️ By Akarsh Mishra</p>
