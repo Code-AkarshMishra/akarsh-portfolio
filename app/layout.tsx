@@ -21,7 +21,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Akarsh Mishra | AI & MERN Stack Developer | SRMU Lucknow",
   description: "Official portfolio of Akarsh Mishra, a CSE student at SRMU. Developer of ENROLE and MedRx. Finalist at HackWithUP'25.",
-  keywords: ["Akarsh Mishra", "code-akarshmishra", "Akarsh Mishra SRMU", "ENROLE", "MedRx", "AI Developer Lucknow"],
+  keywords: ["Akarsh Mishra", "code-akarshmishra", "Code akarsh mishra", "codeakarshmishra", "Akarsh Mishra SRMU", "ENROLE", "MedRx", "AI Developer Lucknow"],
   authors: [{ name: "Akarsh Mishra" }],
   openGraph: {
     title: "Akarsh Mishra | AI & MERN Stack Developer",
