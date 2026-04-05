@@ -77,12 +77,15 @@ export default function RootLayout({
               "url": "https://code-akarshmishra.vercel.app/",
               "sameAs": [
                 "https://www.linkedin.com/in/code-akarshmishra/",
-                "https://github.com/code-akarshmishra"
+                "https://github.com/code-akarshmishra/",
+                "https://www.hackerrank.com/code_akarshmishra/",
+                "https://www.instagram.com/akarsh.mishra.45/",
               ],
               "jobTitle": "Full-Stack Developer",
               "worksFor": {
                 "@type": "Organization",
-                "name": "Shri Ramswaroop Memorial University"
+                "name": "Shri Ramswaroop Memorial University",
+                "alternateName": "SRMU"
               }
             }),
           }}

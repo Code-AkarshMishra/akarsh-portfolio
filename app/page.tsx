@@ -150,7 +150,7 @@ export default function Portfolio() {
               <div className="w-full h-full rounded-full bg-navy-900 border-4 border-navy-900 overflow-hidden relative">
                 {/* TO DO: Place your image in the public folder and update this src path */}
                 <img
-                  src="/profile.jpeg"
+                  src="/profile.jpg"
                   alt="Akarsh Mishra"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                 />
