@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
+import './globals.css';
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -21,7 +21,7 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Akarsh Mishra | AI & MERN Stack Developer | SRMU Lucknow",
   description: "Official portfolio of Akarsh Mishra, a CSE student at SRMU. Developer of ENROLE and MedRx. Finalist at HackWithUP'25.",
-  keywords: ["Akarsh Mishra", "code-akarshmishra", "Code akarsh mishra", "codeakarshmishra", "Akarsh Mishra SRMU", "ENROLE", "MedRx", "AI Developer Lucknow"],
+  keywords: ["Akarsh Mishra", "akarshmishra", "code_akarshmishra", "codeakarshmishra", "code-akarshmishra", "Code akarsh mishra", "codeakarshmishra", "Akarsh Mishra SRMU", "ENROLE", "MedRx", "AI Developer Lucknow"],
   authors: [{ name: "Akarsh Mishra" }],
   openGraph: {
     title: "Akarsh Mishra | AI & MERN Stack Developer",
@@ -80,6 +80,16 @@ export default function RootLayout({
                 "https://github.com/code-akarshmishra/",
                 "https://www.hackerrank.com/code_akarshmishra/",
                 "https://www.instagram.com/akarsh.mishra.45/",
+                "https://www.commudle.com/users/Code_AkarshMishra",
+                "https://topmate.io/codeakarshmishra",
+                "https://dev.to/codeakarshmishra",
+                "https://www.linkedin.com/in/code-akarshmishra/",
+                "https://github.com/code-akarshmishra/",
+                "https://www.hackerrank.com/code_akarshmishra/",
+                "https://www.instagram.com/akarsh.mishra.45/",
+                "https://www.commudle.com/users/Code_AkarshMishra",
+                "https://topmate.io/codeakarshmishra",
+                "https://dev.to/codeakarshmishra"
               ],
               "jobTitle": "Full-Stack Developer",
               "worksFor": {
