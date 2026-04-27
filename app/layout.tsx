@@ -100,6 +100,7 @@ export default function RootLayout({
             }),
           }}
         />
+        <meta name="msvalidate.01" content="F9400021CB73BE7B6F3FA109CA19821D" />
         <meta name="google-site-verification" content="6Xnbq-3OC8tH2EZ7_acIb9Bf49spiVVl_Y57eZ3Z5Gw" />
       </head>
       <body>{children}</body>
