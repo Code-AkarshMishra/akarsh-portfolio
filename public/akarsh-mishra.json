@@ -1,0 +1,25 @@
+﻿{
+  "name": "Akarsh Mishra",
+  "title": "Full-Stack Developer and Computer Science Student",
+  "bio": "B.Tech Computer Science and Engineering student at Shri Ramswaroop Memorial University, Lucknow. This portfolio presents web development, software engineering and applied AI/ML projects.",
+  "canonical_url": "https://code-akarshmishra.vercel.app/",
+  "academic_credentials": {
+    "institution": "Shri Ramswaroop Memorial University",
+    "institution_url": "https://srmu.ac.in/",
+    "degree": "Bachelor of Technology",
+    "major": "Computer Science and Engineering",
+    "tenure": "2023-2027",
+    "current_cgpa": 8.28,
+    "cgpa_scale": 10,
+    "department_achievement": "Rank Holder in the Computer Science (CS) Merit List"
+  },
+  "professional_profiles": {
+    "github": "https://github.com/Code-AkarshMishra",
+    "linkedin": "https://www.linkedin.com/in/code-akarshmishra/",
+    "leetcode": "https://leetcode.com/u/code_akarshmishmra/",
+    "devto": "https://dev.to/codeakarshmishmra"
+  },
+  "project_catalogue": "https://code-akarshmishra.vercel.app/#projects",
+  "contact_page": "https://code-akarshmishra.vercel.app/#service-enquiry",
+  "note": "Project capabilities and status are described on each project page and linked repository. Repository creation dates are not completion dates."
+}
