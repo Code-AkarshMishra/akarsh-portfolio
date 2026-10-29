@@ -2,26 +2,126 @@
 @tailwind components;
 @tailwind utilities;
 
-html {
-  scroll-behavior: smooth;
-  background-color: #0a0f1c;
-  color: #ffffff;
+:root {
+  --paper: #FAF9F5;
+  --ink: #18181B;
+  --taupe: #52525B;
+  --sand: rgba(24, 24, 27, 0.08);
+  --cyber-blue: #2563EB;
+  --cyber-purple: #7C3AED;
+  --cyber-pink: #DB2777;
 }
 
-/* Custom Webkit Scrollbar for premium feel */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: auto;
+  background: var(--paper);
+  color: var(--ink);
+  overflow-x: clip;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  overflow-x: clip;
+}
+
+a,
+button {
+  -webkit-tap-highlight-color: transparent;
+}
+
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+/* Glassmorphism dashboard cards */
+.glass-card {
+  background: rgba(255, 255, 255, 0.65);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(24, 24, 27, 0.08);
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.glass-card:hover {
+  background: rgba(255, 255, 255, 0.85);
+  border-color: rgba(37, 99, 235, 0.25);
+  transform: translateY(-4px);
+}
+
+/* Rotating Gradient Ring animations */
+@keyframes spin-slow {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spin-reverse-slow {
+  0% {
+    transform: rotate(360deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
+  }
+}
+
+.animate-spin-slow {
+  animation: spin-slow 12s linear infinite;
+}
+
+.animate-spin-reverse-slow {
+  animation: spin-reverse-slow 16s linear infinite;
+}
+
+/* Glowing text base styling */
+.glow-text-cyan {
+  text-shadow: 0 0 10px rgba(13, 148, 136, 0.2);
+}
+
+.glow-text-purple {
+  text-shadow: 0 0 10px rgba(124, 58, 237, 0.2);
+}
+
+.glow-text-pink {
+  text-shadow: 0 0 10px rgba(219, 39, 119, 0.2);
+}
+
+/* Custom premium scrollbar for light paper theme */
 ::-webkit-scrollbar {
   width: 8px;
+  height: 8px;
 }
 
 ::-webkit-scrollbar-track {
-  background: #0a0f1c;
+  background: #FAF9F5;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #2d3748;
-  border-radius: 4px;
+  background: rgba(24, 24, 27, 0.15);
+  border-radius: 99px;
+  border: 2px solid #FAF9F5;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #8a2be2;
+  background: rgba(37, 99, 235, 0.4);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+  }
 }
