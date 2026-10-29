@@ -1,0 +1,34 @@
+﻿# Akarsh Mishra
+
+> Personal portfolio of Akarsh Mishra, a Computer Science and Engineering student at Shri Ramswaroop Memorial University (SRMU), Lucknow, India. The site presents software projects, academic work, technical skills, certificates, and contact information.
+
+## Canonical pages
+- [Portfolio home](https://code-akarshmishra.vercel.app/): profile, projects, education, experience, and contact.
+- [Projects](https://code-akarshmishra.vercel.app/#projects): project cards and case studies.
+- [Academic details](https://code-akarshmishra.vercel.app/#academic): education and academic records.
+- [Experience](https://code-akarshmishra.vercel.app/#experience): internship and event context.
+- [Certificates](https://code-akarshmishra.vercel.app/#certifications-gallery): certificates and documents.
+- [Resume](https://code-akarshmishra.vercel.app/Akarsh_Mishra_Resume.pdf): downloadable resume.
+- [Contact](https://code-akarshmishra.vercel.app/#service-enquiry): service enquiry form.
+
+## Profile
+Akarsh Mishra studies Computer Science and Engineering at SRMU. Areas represented on this site include full-stack web development, React, Next.js, TypeScript, Python, backend APIs, and applied AI/ML. The portfolio describes projects and experience; project features should be checked against each linked repository and current deployment.
+
+## Selected projects
+- [WeatherGPT](https://code-akarshmishra.vercel.app/projects/weathergpt): weather-focused AI project associated with Smart India Hackathon.
+- [NeuroTrack AI](https://code-akarshmishra.vercel.app/projects/neurotrack-ai): cognitive-load and fatigue estimation project; outputs are not medical diagnoses.
+- [ENROLE](https://code-akarshmishra.vercel.app/projects/enrole): incomplete repository record; recruitment workflows are not verified as implemented.
+- [PrepBot.AI](https://code-akarshmishra.vercel.app/projects/prepbot): learning-platform prototype associated with HackWithUP; some routes are placeholders.
+- [MedRx](https://code-akarshmishra.vercel.app/projects/medrx): medical-report interpretation project; not a substitute for professional medical advice.
+- [FrameSutra](https://code-akarshmishra.vercel.app/projects/framesutra): video workspace project.
+- [GreenPath](https://code-akarshmishra.vercel.app/projects/green-path): proposed lower-pollution routing concept associated with TechFest; routing features remain roadmap items.
+- [Sparsh Trading](https://code-akarshmishra.vercel.app/projects/sparsh-trading): client business website.
+- [Mahakal Swarn Builder](https://code-akarshmishra.vercel.app/projects/mahakalswarnbuilder): client real-estate website.
+
+## Professional links
+- [GitHub](https://github.com/Code-AkarshMishra)
+- [LinkedIn](https://www.linkedin.com/in/code-akarshmishra/)
+- [Email](mailto:akarshmishra3145@gmail.com)
+- [Official SRMU website](https://srmu.ac.in/)
+
+This file contains public professional information only. It does not enumerate student identifiers or private affiliations.
