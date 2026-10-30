@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+
+  <url>
+       <loc>https://code-akarshmishra.vercel.app/</loc>
+       <lastmod>2026-10-30T03:49:59+00:00</lastmod>
+       <priority>1.0000</priority>
+  </url>
+  <url>
+       <loc>https://code-akarshmishra.vercel.app/Akarsh_Mishra_Resume.pdf</loc>
+       <lastmod>2026-10-30T03:49:59+00:00</lastmod>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://code-akarshmishra.vercel.app/projects/weathergpt</loc>
+       <lastmod>2026-10-30T03:49:59+00:00</lastmod>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://code-akarshmishra.vercel.app/projects/neurotrack-ai</loc>
+       <lastmod>2026-10-30T03:49:59+00:00</lastmod>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://code-akarshmishra.vercel.app/certificates/SIH_2026_Certificate_Akarsh%20Mishra.pdf</loc>
+       <lastmod>2026-10-30T03:49:59+00:00</lastmod>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://code-akarshmishra.vercel.app/certificates/GSSoC-2026-Certificate.pdf</loc>
+       <lastmod>2026-10-30T03:49:59+00:00</lastmod>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://code-akarshmishra.vercel.app/certificates/Ideathon-nitdelhi.pdf</loc>
+       <lastmod>2026-10-30T03:49:59+00:00</lastmod>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://code-akarshmishra.vercel.app/certificates/confrence%20certificate.pdf</loc>
+       <lastmod>2026-10-30T03:49:59+00:00</lastmod>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://code-akarshmishra.vercel.app/llms.txt</loc>
+       <lastmod>2026-10-30T03:49:59+00:00</lastmod>
+       <priority>0.8000</priority>
+  </url>
+  <url>
+       <loc>https://code-akarshmishra.vercel.app/sitemap.xml</loc>
+       <lastmod>2026-10-30T03:49:59+00:00</lastmod>
+       <priority>0.8000</priority>
+  </url>
+</urlset>
